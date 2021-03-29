@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+classroom_api:
+  resource: ./api_routes.yaml
+  name_prefix: api-
+  prefix: /api
+

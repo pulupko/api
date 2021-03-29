@@ -1,0 +1,29 @@
+classroom_list:
+  path: /classroom/list
+  controller: App\Controller\ClassroomController::list
+  methods: ['GET']
+
+classroom_show:
+  path: /classroom/show/{classroom}
+  controller: App\Controller\ClassroomController::show
+  methods: ['GET']
+
+classroom_create:
+  path: /classroom/create
+  controller: App\Controller\ClassroomController::create
+  methods: ['POST']
+
+classroom_update:
+  path: /classroom/update/{classroom}
+  controller: App\Controller\ClassroomController::update
+  methods: ['PUT']
+
+classroom_delete:
+  path: /classroom/delete/{classroom}
+  controller: App\Controller\ClassroomController::delete
+  methods: ['DELETE']
+
+classroom_change_status:
+  path: /classroom/change-status/{classroom}
+  controller: App\Controller\ClassroomController::changeStatus
+  methods: ['PATCH']
